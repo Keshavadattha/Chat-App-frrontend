@@ -1,0 +1,98 @@
+.ls{
+    background:#001030;
+    color:white;
+    height:75vh;
+
+}
+.ls-top{
+    padding:20px;
+
+}
+.ls-nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.ls-nav .logo{
+    max-width: 140px;
+}
+.ls-nav .menu img {
+    max-height: 20px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.ls-search{
+    background-color: #002670;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    margin: 20px;
+}
+.ls-search img{
+    width: 16px;
+}
+.ls-search input::placeholder{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 11px;
+}
+.ls-list{
+   display: flex;
+   flex-direction: column;
+   height: 70%;
+    overflow-y: scroll;
+}
+.friends img{
+    width: 35px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+.friends{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    cursor: pointer;
+    font-size:13px;
+}
+.friends div{
+    display: flex;
+    flex-direction: column;
+}
+.friends span{
+    color: #b3b3b3;
+    font-size: 11px;
+}
+.friends:hover{
+    background-color: #077eff;
+}
+.friends:hover span{
+    color: white;
+}
+.ls-nav .menu{
+    position: relative;
+    padding:10px 0px;
+}
+.menu .submenu{
+    position: absolute;
+    top:100px;
+    right:0;
+    width:130px;
+    padding:20px;
+    border-radius:5px;
+    background-color:white;
+    color:black;
+    display: none;
+}
+.submenu hr{
+border:none;
+height: 1px;
+background:#a4a4a4;
+margin:8px 0px ;
+}
+.menu:hover .submenu{
+    display:block;
+}
